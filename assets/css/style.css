@@ -83,6 +83,8 @@ src: local('Myriad Pro Light'), url('../fonts/MyriadPro-Light.woff') format('wof
 }
 
 
+a { color: inherit; }
+
 img.puce {
 /*
   margin-right:53px;
@@ -432,7 +434,7 @@ div.container {
 }
 
 .interblock61 {
-  height:61px;
+  height:20px;
 }
 
 .picright {
@@ -548,7 +550,7 @@ div.container {
 
 
 .interblock45 {
-  height:45px;
+  height:10px;
 }
 
 .logopad {
@@ -765,6 +767,7 @@ li.dropdown {
     margin-bottom: 15px;
     overflow: hidden;
     word-wrap: break-word;
+    margin-left: 10px;
 }
 
 
@@ -777,11 +780,11 @@ li.dropdown {
 
 .hdfonts-sec{
     color: #d03533;
-    font: 27.76px / 27.765px 'Myriad Pro';
-    font-family: 'Myriad Pro';
+    font: 27.76px / 27.765px 'Myriad Pro Condensed';
+    font-family: 'Myriad Pro Condensed';
     font-weight: normal;
-    font-size: 27.76px;
-    transform: scale(0.681,1.081);
+    font-size: 35px;
+/*    transform: scale(0.681,1.081);*/
     line-height: 27.765px;
     height: 22px;
     text-transform: uppercase;
@@ -908,13 +911,13 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 .hdfonts-nr {
-    font: 300 27.76px / 27.765px 'Myriad Pro';
-    font-family: 'Myriad Pro';
-    font-size: 27.76px;
+    font: 300 27.76px / 27.765px 'Myriad Pro Condensed';
+    font-family: 'Myriad Pro Condensed';
+    font-size: 45px;
     line-height: 27.765px;
     color: #ffffff;
     font-weight: 300;
-    transform: scale(1.067,2.067);
+/*    transform: scale(1.067,2.067);*/
     margin-top: 50px; 
 }
 
