@@ -763,11 +763,12 @@ li.dropdown {
 
 #txtsec {
     font-size: 16px;   /* for all text  font-size: 9px*/
-    height: 170px;    /* for all text  height: 180px*/    
+    height: 112px;    /* for all text  height: 180px*/
     margin-bottom: 15px;
     overflow: hidden;
     word-wrap: break-word;
     margin-left: 10px;
+    margin-top: 25px;
 }
 
 
@@ -907,7 +908,7 @@ h1, .h1, h2, .h2, h3, .h3 {
 .position-bottom-sec {
     position: relative;
     right: -55px;
-    top: 3px;
+    top: 45px;
 }
 
 .hdfonts-nr {
@@ -970,11 +971,17 @@ h1, .h1, h2, .h2, h3, .h3 {
 position: absolute;
 left: 0;
 right: 0;
-top:2% !important;
+top: 1% !important;
 bottom: 0;
 margin: auto;
 width:60%;
-height:80%;
+height:100%;
+}
+
+.modal {
+/*    margin-top: -45%;  remove this */
+    max-height: 90%;
+    overflow-y: auto;
 }
 
 
