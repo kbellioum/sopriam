@@ -411,9 +411,44 @@ div.container {
   width:830px;
   height:305px;
   margin:auto;
+  background-size:cover;
+}
+
+
+.nv {
+  background-image:url(../../assets/img/nv.jpg);
+  width:830px;
+  height:305px;
+  margin:auto;
+  background-size: 100% 100%;
+}
+
+
+
+.es {
+  background-image:url(../../assets/img/es.jpg);
+  width:830px;
+  height:305px;
+  margin:auto;
+  background-size:cover;
 }
 
 .npqtxt {
+  position:relative;
+  background-image:url(../../assets/img/Calque-8.png);
+  height:174px;
+/*  padding-top: 40px;*/
+}
+
+.npstxt {
+  position:relative;
+  background-image:url(../../assets/img/Calque-8.png);
+  height:174px;
+/*  padding-top: 40px;*/
+}
+
+
+.npqtxtmodal {
   position:relative;
   background-image:url(../../assets/img/Calque-8.png);
   height:174px;
@@ -487,7 +522,7 @@ div.container {
 }
 
 .textred {
-  font: 300 25px / 25px 'Myriad Pro';         
+/*  font: 300 25px / 25px 'Myriad Pro';         */
   color:#d03533;
   text-transform: uppercase;
   transform: scale(0.8,1);
@@ -538,8 +573,8 @@ div.container {
 .nrtxt {
   float:right;
   width:414px;
-  font: 15px 'Myriad Pro';
-  font-family: 'Myriad Pro';
+/*  font: 15px 'Myriad Pro';*/
+/*  font-family: 'Myriad Pro';*/
   font-size: 15px;
   font-weight: normal;
   margin-top: 10px;
@@ -585,7 +620,7 @@ div.container {
 }
 
 .textpad31 {
-    font: 300 17px / 17px 'Myriad Pro';
+/*    font: 300 17px / 17px 'Myriad Pro';*/
     padding-left:367px;
 }
 
@@ -667,6 +702,7 @@ div.logocenter2 {
 .padinter2 {
   padding-left:6px;
   padding-right:6px;
+  height: 44px;
 }
 
 
@@ -764,11 +800,11 @@ li.dropdown {
 #txtsec {
     font-size: 16px;   /* for all text  font-size: 9px*/
     height: 112px;    /* for all text  height: 180px*/
-    margin-bottom: 15px;
-    overflow: hidden;
-    word-wrap: break-word;
+    margin-bottom: 4px;
+/*    overflow: hidden;*/
+/*    word-wrap: break-word;*/
     margin-left: 10px;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 
@@ -924,8 +960,8 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 .txtnrfirst {
     
-  font: 15px 'Myriad Pro';
-  font-family: 'Myriad Pro';
+/*  font: 15px 'Myriad Pro';*/
+/*  font-family: 'Myriad Pro';*/
   font-size: 15px;
   font-weight: normal;
   margin-top: 10px;
@@ -943,6 +979,7 @@ h1, .h1, h2, .h2, h3, .h3 {
     margin-left: 9px;
     padding-top: 13px;
     transform: scale(1, 1);
+    color: white;
     
     
 }
@@ -1012,3 +1049,9 @@ height:100%;
   left:0;
   right:0;
 }*/
+
+.logosize {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}

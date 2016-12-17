@@ -44,6 +44,7 @@ $(document).ready(function(){
         if(flagnpq === true){
             $("#tab").hide();
             $(this).removeClass("glyphicon glyphicon-plus-sign white").addClass("glyphicon glyphicon-minus-sign white");
+            $("#txtnpq").addClass("animated bounceInUp");
             $("#txtnpq").css("overflow","visible");
             $("#txtnpq").css("height", "186px");
             $(".npqtxt").css("height", "305px");
@@ -53,9 +54,12 @@ $(document).ready(function(){
         }else{
             $("#tab").show();
             $(this).removeClass("glyphicon glyphicon-minus-sign white").addClass("glyphicon glyphicon-plus-sign white");
+            $("#txtnpq").addClass("animated bounceInUp");
             $("#txtnpq").css("height", "55px");
             $("#txtnpq").css("overflow","hidden");
             $(".npqtxt").css("height", "174px");
+
+
             flagnpq = true;
         }
     
@@ -63,12 +67,32 @@ $(document).ready(function(){
     
 //    ----------     NOS VALEURS
     $("#pcnv").on('click', function(){
-        $('#Modalnv').modal('show');
+
+            $("#tab").show();
+            $("#pcnpq").removeClass("glyphicon glyphicon-minus-sign white").addClass("glyphicon glyphicon-plus-sign white");
+            $("#txtnpq").addClass("animated bounceInUp");
+            $("#txtnpq").css("height", "55px");
+            $("#txtnpq").css("overflow","hidden");
+            $(".npqtxt").css("height", "174px");
+
+
+            flagnpq = true;
+            $('#Modalnv').modal('show');
           
     });
     
     $("#pcsec").on('click', function(){
-        $('#Modalsec').modal('show');
+
+            $("#tab").show();
+            $("#pcnpq").removeClass("glyphicon glyphicon-minus-sign white").addClass("glyphicon glyphicon-plus-sign white");
+            $("#txtnpq").addClass("animated bounceInUp");
+            $("#txtnpq").css("height", "55px");
+            $("#txtnpq").css("overflow","hidden");
+            $(".npqtxt").css("height", "174px");
+
+
+            flagnpq = true;
+            $('#Modalsec').modal('show');
           
     });
     
