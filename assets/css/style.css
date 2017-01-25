@@ -552,7 +552,7 @@ div.container {
 }
 
 .map {
-  background-image:url(../../assets/img/calque-puces2.png);
+/*  background-image:url(../../assets/img/calque-puces2.png);*/
   width:414px;
   height:409px;
   float:right;
@@ -585,7 +585,7 @@ div.container {
 
 
 .interblock45 {
-  height:10px;
+  height:30px;
 }
 
 .logopad {
