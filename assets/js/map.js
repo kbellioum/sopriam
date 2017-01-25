@@ -1,4 +1,4 @@
-// Map draw script
+// Map draw script ITKnowledge Maroc
 
 var map;
 
@@ -68,24 +68,24 @@ map.balloon.fixedPosition = true;
             {svgPath: targetSVG, zoomLevel: 20, color: "#d03533", scale: 0.04, title: "CONCESSION RAISS AUTO <br/> 65 av Mohamed V <br/> Tél. 05 39 98 00 92 ", latitude:35.2419780, longitude:-3.930153300000029},
             {svgPath: targetSVG, zoomLevel: 20, color: "#d03533", scale: 0.04, title: "CONCESSION NABAM AUTO <br/> 139 BD IMAM MALIK <br/> Tél. 05 24 41 17 07 ", latitude:32.05742351247835, longitude:-7.406576871871948}
                     ],
-			  getAreasFromMap:true
-			 };
+            getAreasFromMap:true
+            };
 
-			    map.dataProvider = dataProvider;
+map.dataProvider = dataProvider;
 
-			    map.areasSettings = {
-			        autoZoom: false,
-			        selectedColor: "#c7c7c7",
-                    color: "#83b3d6",
-                    rollOverOutlineColor: "#FFFFFF",
-			        rollOverColor: "#898585"
-			    };
+map.areasSettings = {
+    autoZoom: false,
+    selectedColor: "#c7c7c7",
+    color: "#83b3d6",
+    rollOverOutlineColor: "#FFFFFF",
+    rollOverColor: "#898585"
+};
 
 
-                var zoomControl = map.zoomControl;
-                zoomControl.panControlEnabled = false;
-  				zoomControl.zoomControlEnabled = false;
+var zoomControl = map.zoomControl;
+zoomControl.panControlEnabled = false;
+zoomControl.zoomControlEnabled = false;
 
-			    map.write("mapdiv");
+map.write("mapdiv");
 
 });
